@@ -10,8 +10,7 @@ Task:
 What state are the doors in after the last pass? Which are open, which are closed?
 """
 
-if __name__ == '__main__':
-
+def solution():
     doors = [False] * 101
     open_doors = []
     closed_doors = []
@@ -29,3 +28,11 @@ if __name__ == '__main__':
 
     print(open_doors)
     print(closed_doors)
+
+
+def main():
+    solution()
+
+
+if __name__ == '__main__':
+    main()
