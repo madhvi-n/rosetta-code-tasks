@@ -14,13 +14,14 @@ def get_sum(n: int) -> int:
     return result
 
 
-def root_mean_square(max_num: int = 10) -> int:
+def root_mean_square(max_num: int = 10) -> float:
     mean = round(sqrt(get_sum(max_num) / max_num), 2)
-    print(mean)
+    return mean
 
 
 def main():
-    root_mean_square()
+    mean = root_mean_square()
+    print(mean)
 
 
 if __name__ == '__main__':
