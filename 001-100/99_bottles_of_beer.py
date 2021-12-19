@@ -13,8 +13,8 @@ Take one down, pass it around
 Take one down, pass it around
 
 """
-
-if __name__ == '__main__':
+def solution():
+    """Using while loop"""
     max = 99
 
     while max > 1:
@@ -23,3 +23,11 @@ if __name__ == '__main__':
         print(f"Take one down, pass it around")
         max -= 1
         print(f"{max} bottles of beer \n")
+
+
+def main():
+    solution()
+
+
+if __name__ == '__main__':
+    main()
