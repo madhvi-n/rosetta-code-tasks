@@ -12,5 +12,9 @@ def fizzbuzz(n):
         print(''.join( word * (i % key == 0) for  key, word in mappings.items()) or i)
 
 
-if __name__ == '__main__':
+def main():
     fizzbuzz(100)
+
+
+if __name__ == '__main__':
+    main()
